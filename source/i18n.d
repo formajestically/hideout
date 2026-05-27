@@ -362,6 +362,52 @@ shared static this() {
             Msg.toast_install_success: "Entrada desktop instalada!",
             Msg.toast_install_fail: "A instalação falhou: ",
             Msg.hint_flatpak_manual: "Devido às restrições de segurança do Flatpak, o destino deve ser confirmado através do seletor de ficheiros"
+        ],
+        "ca": [
+        Msg.app_title: "Hideout",
+            Msg.select_page_title: "Encripta o desencripta",
+            Msg.select_page_desc: "Seleccioneu o arrossegueu un fitxer aquí.",
+            Msg.select_file_btn: "Selecciona un fitxer",
+            Msg.action_label: "Acció:",
+            Msg.op_encrypt: "Encriptatge",
+            Msg.op_decrypt: "Desencriptatge",
+            Msg.dest_label: "Destinació:",
+            Msg.dest_placeholder: "Nom del fitxer de sortida",
+            Msg.pwd_label: "Contrasenya de seguretat:",
+            Msg.cancel_btn: "Cancel·la",
+            Msg.start_btn: "Inicia",
+            Msg.btn_encrypt: "Encripta",
+            Msg.btn_decrypt: "Desencripta",
+            Msg.btn_open: "Obre",
+            Msg.btn_show_folder: "Mostra",
+            Msg.confirm_title: "El fitxer ja existeix",
+            Msg.confirm_desc: "El fitxer de destinació ja existeix.\nEsteu segur que voleu sobreescriure'l?",
+            Msg.confirm_yes: "Sobreescriu",
+            Msg.progress_title_generic: "S'està processant...",
+            Msg.progress_desc: "S'està iniciant l'operació...",
+            Msg.progress_pct: "S'ha completat en un %.1f%% ",
+            Msg.done_title: "Operació completada",
+            Msg.done_success: "S'ha completat",
+            Msg.done_saved: "S'ha desat a:\n",
+            Msg.restart_btn: "Reinicia",
+            Msg.btn_retry: "Reintenta",
+            Msg.err_title: "Error",
+            Msg.err_generic: "L'operació ha fallat o s'ha cancel·lat.",
+            Msg.err_bad_password: "Contrasenya incorrecta",
+            Msg.err_corrupted: "El desencriptatge ha fallat.\nEl fitxer està malmès o té un format incorrecte.",
+            Msg.err_cancelled: "S'ha cancel·lat l'operació.",
+            Msg.err_code: "S'ha produït un error durant l'operació (codi ",
+            Msg.err_asymmetric: "El fitxer requereix una clau privada, no una contrasenya.",
+            Msg.err_unknown_gpg: "El fitxer no és compatible o té un format incorrecte.",
+            Msg.title_encrypt_file: "Encripteu un fitxer",
+            Msg.title_decrypt_file: "Desencripteu un fitxer",
+            Msg.btn_install: "Instal·la un llançador de l'escriptori",
+            Msg.btn_about: "Quant a",
+            Msg.btn_issues: "Informa d'un problema",
+            Msg.btn_website: "Lloc web",
+            Msg.toast_install_success: "S'ha instal·lat el llançador de l'escriptori!",
+            Msg.toast_install_fail: "La instal·lació ha fallat: ",
+            Msg.hint_flatpak_manual: "A causa de les restriccions de seguretat de Flatpak, cal confirmar la destinació amb el selector de fitxers."
         ]
     ];
 
@@ -379,7 +425,7 @@ string _(Msg key) {
     if (auto langMap = currentLang in allTranslations) {
         return (*langMap)[key];
     }
-    
+
     // English is the default language
     return allTranslations["en"][key];
 }
