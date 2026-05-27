@@ -52,24 +52,12 @@
     </p>
     <ul>
       <li>Simple UI: Drag and drop files to encrypt or decrypt.</li>
-      <li
-                xml:lang="it"
-            >Interfaccia semplice: trascina i file per criptarli o decriptarli.</li>
-      <li
-                xml:lang="fr"
-            >Interface simple : glissez-déposez des fichiers pour les chiffrer ou les déchiffrer.</li>
-      <li
-                xml:lang="es"
-            >Interfaz sencilla: arrastre y suelte archivos para cifrarlos o descifrarlos.</li>
-      <li
-                xml:lang="de"
-            >Einfache Benutzeroberfläche: Dateien zum Verschlüsseln oder Entschlüsseln per Drag-and-Drop verschieben.</li>
-      <li
-                xml:lang="pt"
-            >Interface simples: arraste e solte arquivos para criptografá-los ou descriptografá-los.</li>
-      <li
-                xml:lang="ca"
-            >Interfície senzilla: només cal arrossegar i deixar anar els fitxers per a encriptar-los o desencriptar-los.</li>
+      <li xml:lang="it">Interfaccia semplice: trascina i file per criptarli o decriptarli.</li>
+      <li xml:lang="fr">Interface simple : glissez-déposez des fichiers pour les chiffrer ou les déchiffrer.</li>
+      <li xml:lang="es">Interfaz sencilla: arrastre y suelte archivos para cifrarlos o descifrarlos.</li>
+      <li xml:lang="de">Einfache Benutzeroberfläche: Dateien zum Verschlüsseln oder Entschlüsseln per Drag-and-Drop verschieben.</li>
+      <li xml:lang="pt">Interface simples: arraste e solte arquivos para criptografá-los ou descriptografá-los.</li>
+      <li xml:lang="ca">Interfície senzilla: només cal arrossegar i deixar anar els fitxers per a encriptar-los o desencriptar-los.</li>
       <li>Secure: Uses GPG symmetric encryption.</li>
       <li xml:lang="it">Sicuro: utilizza la crittografia simmetrica GPG.</li>
       <li xml:lang="fr">Sécurisé : utilise le chiffrement symétrique GPG.</li>
@@ -79,9 +67,7 @@
       <li xml:lang="ca">Segur: utiliza encriptatge simètric GPG.</li>
       <li>Multi-language: Supported in several languages.</li>
       <li xml:lang="it">Multi-lingua: supportato in diverse lingue.</li>
-      <li
-                xml:lang="fr"
-            >Multi-langue : pris en charge dans plusieurs langues.</li>
+      <li xml:lang="fr">Multi-langue : pris en charge dans plusieurs langues.</li>
       <li xml:lang="es">Multilingüe: disponible en varios idiomas.</li>
       <li xml:lang="de">Mehrsprachig: in mehreren Sprachen verfügbar.</li>
       <li xml:lang="pt">Multilíngue: disponível em vários idiomas.</li>
@@ -100,23 +86,17 @@
       <caption xml:lang="de">Das Hauptfenster von Hideout</caption>
       <caption xml:lang="pt">A janela principal do Hideout</caption>
       <caption xml:lang="ca">La finestra principal del Hideout</caption>
-      <image
-                type="source"
-            >https://raw.githubusercontent.com/trikko/hideout/main/screenshots/main_window.png</image>
+      <image type="source">https://raw.githubusercontent.com/trikko/hideout/main/screenshots/main_window.png</image>
     </screenshot>
     <screenshot>
       <caption>Options and encryption settings</caption>
       <caption xml:lang="it">Opzioni e impostazioni di cifratura</caption>
       <caption xml:lang="fr">Options et paramètres de chiffrement</caption>
       <caption xml:lang="es">Opciones y ajustes de cifrado</caption>
-      <caption
-                xml:lang="de"
-            >Optionen und Verschlüsselungseinstellungen</caption>
+      <caption xml:lang="de">Optionen und Verschlüsselungseinstellungen</caption>
       <caption xml:lang="pt">Opções e configurações de criptografia</caption>
       <caption xml:lang="ca">Opcions i paràmetres d'encriptació</caption>
-      <image
-                type="source"
-            >https://raw.githubusercontent.com/trikko/hideout/main/screenshots/options.png</image>
+      <image type="source">https://raw.githubusercontent.com/trikko/hideout/main/screenshots/options.png</image>
     </screenshot>
     <screenshot>
       <caption>Encryption in progress</caption>
@@ -126,9 +106,7 @@
       <caption xml:lang="de">Verschlüsselung läuft</caption>
       <caption xml:lang="pt">Criptografia em andamento</caption>
       <caption xml:lang="ca">Procés d'encriptatge</caption>
-      <image
-                type="source"
-            >https://raw.githubusercontent.com/trikko/hideout/main/screenshots/progress.png</image>
+      <image type="source">https://raw.githubusercontent.com/trikko/hideout/main/screenshots/progress.png</image>
     </screenshot>
     <screenshot>
       <caption>Operation completed successfully</caption>
@@ -138,9 +116,7 @@
       <caption xml:lang="de">Vorgang erfolgreich abgeschlossen</caption>
       <caption xml:lang="pt">Operação concluída com sucesso</caption>
       <caption xml:lang="ca">Encriptatge completat amb èxit</caption>
-      <image
-                type="source"
-            >https://raw.githubusercontent.com/trikko/hideout/main/screenshots/completed.png</image>
+      <image type="source">https://raw.githubusercontent.com/trikko/hideout/main/screenshots/completed.png</image>
     </screenshot>
   </screenshots>
 
